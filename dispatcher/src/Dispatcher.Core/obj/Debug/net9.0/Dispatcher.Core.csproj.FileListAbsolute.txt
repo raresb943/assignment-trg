@@ -1,0 +1,17 @@
+C:\Users\raresbutean\source\repos\remote-browser\dispatcher\src\Dispatcher.Core\bin\Debug\net9.0\Dispatcher.Core.deps.json
+C:\Users\raresbutean\source\repos\remote-browser\dispatcher\src\Dispatcher.Core\bin\Debug\net9.0\Dispatcher.Core.dll
+C:\Users\raresbutean\source\repos\remote-browser\dispatcher\src\Dispatcher.Core\bin\Debug\net9.0\Dispatcher.Core.pdb
+C:\Users\raresbutean\source\repos\remote-browser\dispatcher\src\Dispatcher.Core\bin\Debug\net9.0\RemoteBrowser.Contracts.dll
+C:\Users\raresbutean\source\repos\remote-browser\dispatcher\src\Dispatcher.Core\bin\Debug\net9.0\RemoteBrowser.Contracts.pdb
+C:\Users\raresbutean\source\repos\remote-browser\dispatcher\src\Dispatcher.Core\obj\Debug\net9.0\Dispatcher.Core.csproj.AssemblyReference.cache
+C:\Users\raresbutean\source\repos\remote-browser\dispatcher\src\Dispatcher.Core\obj\Debug\net9.0\Dispatcher.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\raresbutean\source\repos\remote-browser\dispatcher\src\Dispatcher.Core\obj\Debug\net9.0\Dispatcher.Core.AssemblyInfoInputs.cache
+C:\Users\raresbutean\source\repos\remote-browser\dispatcher\src\Dispatcher.Core\obj\Debug\net9.0\Dispatcher.Core.AssemblyInfo.cs
+C:\Users\raresbutean\source\repos\remote-browser\dispatcher\src\Dispatcher.Core\obj\Debug\net9.0\Dispatcher.Core.csproj.CoreCompileInputs.cache
+C:\Users\raresbutean\source\repos\remote-browser\dispatcher\src\Dispatcher.Core\obj\Debug\net9.0\Dispatch.9FEC5E3E.Up2Date
+C:\Users\raresbutean\source\repos\remote-browser\dispatcher\src\Dispatcher.Core\obj\Debug\net9.0\Dispatcher.Core.dll
+C:\Users\raresbutean\source\repos\remote-browser\dispatcher\src\Dispatcher.Core\obj\Debug\net9.0\refint\Dispatcher.Core.dll
+C:\Users\raresbutean\source\repos\remote-browser\dispatcher\src\Dispatcher.Core\obj\Debug\net9.0\Dispatcher.Core.pdb
+C:\Users\raresbutean\source\repos\remote-browser\dispatcher\src\Dispatcher.Core\obj\Debug\net9.0\ref\Dispatcher.Core.dll
+C:\Users\raresbutean\source\repos\remote-browser\dispatcher\src\Dispatcher.Core\bin\Debug\net9.0\Dispatcher.Core.runtimeconfig.json
+C:\Users\raresbutean\source\repos\remote-browser\dispatcher\src\Dispatcher.Core\obj\Debug\net9.0\Dispatcher.Core.genruntimeconfig.cache

@@ -1,0 +1,114 @@
+version: "3.8"
+
+services:
+  dispatcher:
+    build:
+      context: .
+      dockerfile: ./dispatcher/Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Host=db;Database=dispatcher;Username=postgres;Password=postgres
+      - NodeServiceUrl=http://node:80
+      - RabbitMq__Host=rabbitmq
+      - RabbitMq__Username=guest
+      - RabbitMq__Password=guest
+    volumes:
+      - ./shared:/app/shared
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+      db:
+        condition: service_healthy
+      node:
+        condition: service_started
+    networks:
+      - remote-browser-network
+
+  node:
+    build:
+      context: .
+      dockerfile: ./node/Dockerfile
+    ports:
+      - "8081:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - RabbitMq__Host=rabbitmq
+      - RabbitMq__Username=guest
+      - RabbitMq__Password=guest
+      - Docker__ApiUrl=unix:///var/run/docker.sock
+      - ContainerSettings__PayloadServiceHost=payload
+      - ContainerSettings__PayloadServicePort=3000
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./shared:/app/shared
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+      payload:
+        condition: service_healthy
+    networks:
+      - remote-browser-network
+
+  payload:
+    build:
+      context: ./payload
+      dockerfile: ./Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "-q", "http://localhost:3000/health"]
+      interval: 5s
+      timeout: 10s
+      retries: 3
+      start_period: 5s
+    networks:
+      - remote-browser-network
+
+  rabbitmq:
+    image: masstransit/rabbitmq:latest
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    environment:
+      - RABBITMQ_DEFAULT_USER=guest
+      - RABBITMQ_DEFAULT_PASS=guest
+      - RABBITMQ_DEFAULT_VHOST=/
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq
+    healthcheck:
+      test: ["CMD", "rabbitmqctl", "status"]
+      interval: 5s
+      timeout: 20s
+      retries: 5
+    networks:
+      - remote-browser-network
+
+  db:
+    image: postgres:16
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=dispatcher
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    networks:
+      - remote-browser-network
+    ports:
+      - "5432:5432"
+
+networks:
+  remote-browser-network:
+    driver: bridge
+
+volumes:
+  postgres_data:
+  rabbitmq_data:

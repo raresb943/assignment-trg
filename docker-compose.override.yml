@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  dispatcher:
+    volumes:
+      - ./shared:/app/shared
+
+  node:
+    volumes:
+      - ./shared:/app/shared

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "x2G355HonlP1gVuaKWpS2nhskezNK/pQpagipsMOUhg=",
+  "Source": "Node.Service",
+  "BasePath": "_content/Node.Service",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

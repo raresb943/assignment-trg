@@ -1,0 +1,11 @@
+C:\Users\raresbutean\source\repos\remote-browser\shared\RemoteBrowser.Contracts\bin\Debug\net9.0\RemoteBrowser.Contracts.deps.json
+C:\Users\raresbutean\source\repos\remote-browser\shared\RemoteBrowser.Contracts\bin\Debug\net9.0\RemoteBrowser.Contracts.dll
+C:\Users\raresbutean\source\repos\remote-browser\shared\RemoteBrowser.Contracts\bin\Debug\net9.0\RemoteBrowser.Contracts.pdb
+C:\Users\raresbutean\source\repos\remote-browser\shared\RemoteBrowser.Contracts\obj\Debug\net9.0\RemoteBrowser.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\raresbutean\source\repos\remote-browser\shared\RemoteBrowser.Contracts\obj\Debug\net9.0\RemoteBrowser.Contracts.AssemblyInfoInputs.cache
+C:\Users\raresbutean\source\repos\remote-browser\shared\RemoteBrowser.Contracts\obj\Debug\net9.0\RemoteBrowser.Contracts.AssemblyInfo.cs
+C:\Users\raresbutean\source\repos\remote-browser\shared\RemoteBrowser.Contracts\obj\Debug\net9.0\RemoteBrowser.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\raresbutean\source\repos\remote-browser\shared\RemoteBrowser.Contracts\obj\Debug\net9.0\RemoteBrowser.Contracts.dll
+C:\Users\raresbutean\source\repos\remote-browser\shared\RemoteBrowser.Contracts\obj\Debug\net9.0\refint\RemoteBrowser.Contracts.dll
+C:\Users\raresbutean\source\repos\remote-browser\shared\RemoteBrowser.Contracts\obj\Debug\net9.0\RemoteBrowser.Contracts.pdb
+C:\Users\raresbutean\source\repos\remote-browser\shared\RemoteBrowser.Contracts\obj\Debug\net9.0\ref\RemoteBrowser.Contracts.dll

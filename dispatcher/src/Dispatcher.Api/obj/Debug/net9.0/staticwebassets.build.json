@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "xhWt5OEXtoxZxlSEbs2z2o9Oobu/HkbtYAoeeeHY+pA=",
+  "Source": "Dispatcher.Api",
+  "BasePath": "_content/Dispatcher.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,0 +1,12 @@
+C:\Users\raresbutean\source\repos\remote-browser\node\src\Node.Core\bin\Debug\net9.0\Node.Core.deps.json
+C:\Users\raresbutean\source\repos\remote-browser\node\src\Node.Core\bin\Debug\net9.0\Node.Core.dll
+C:\Users\raresbutean\source\repos\remote-browser\node\src\Node.Core\bin\Debug\net9.0\Node.Core.pdb
+C:\Users\raresbutean\source\repos\remote-browser\node\src\Node.Core\obj\Debug\net9.0\Node.Core.csproj.AssemblyReference.cache
+C:\Users\raresbutean\source\repos\remote-browser\node\src\Node.Core\obj\Debug\net9.0\Node.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\raresbutean\source\repos\remote-browser\node\src\Node.Core\obj\Debug\net9.0\Node.Core.AssemblyInfoInputs.cache
+C:\Users\raresbutean\source\repos\remote-browser\node\src\Node.Core\obj\Debug\net9.0\Node.Core.AssemblyInfo.cs
+C:\Users\raresbutean\source\repos\remote-browser\node\src\Node.Core\obj\Debug\net9.0\Node.Core.csproj.CoreCompileInputs.cache
+C:\Users\raresbutean\source\repos\remote-browser\node\src\Node.Core\obj\Debug\net9.0\Node.Core.dll
+C:\Users\raresbutean\source\repos\remote-browser\node\src\Node.Core\obj\Debug\net9.0\refint\Node.Core.dll
+C:\Users\raresbutean\source\repos\remote-browser\node\src\Node.Core\obj\Debug\net9.0\Node.Core.pdb
+C:\Users\raresbutean\source\repos\remote-browser\node\src\Node.Core\obj\Debug\net9.0\ref\Node.Core.dll
